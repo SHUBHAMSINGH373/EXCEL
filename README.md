@@ -69,3 +69,8 @@ Keep all slicers aligned (Region, Education, Martial Status)
 Place charts logically: e.g., Sales Trends at top, Product details below
 
 Use cell color formatting, borders, icons, and shapes for professional look
+
+5. Code Used:
+
+   =IF(L2>=55,"old",IF(L2>=31,"middle age",IF(L2<31,"adolescent","invalid"))).
+   
